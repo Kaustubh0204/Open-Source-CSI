@@ -459,9 +459,9 @@
                     After the conclusion of event the leaderboards of the mentors would be taken into consideration by
                     the organizing team for the final evaluation of the participants and the result would be declared.
                 </p>
-                
+
             </div>
-            
+
         </div>
     </div>
 
@@ -493,17 +493,205 @@
         });
     </script>
 
+    <div style="background-color: white; height: auto">
+        <div class="container" style="margin-top: 100px;">
+            <h1 style="text-align: center; font-family: 'Questrial', sans-serif;">Our Sponsors</h1>
+            <br>
+            <p style="font-family: 'Montserrat', sans-serif; text-align: center;">
+                Sponsors make it possible for Girlscript Summer Of Code to provide the perks for participants. Their
+                generous<br> donations allow students to participate in the program and focus on learning. Sponsors
+                receive
+                a great deal of<br> publicity and exposure as a result of the program. So register to be a sponsor
+                today!
+            </p>
+
+            <br>
+            <hr>
+            <br>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+
+                    <a href="https://www.hackerrank.com" target="_blank" class="card text-dark bg-light mb-3 hover-up"
+                        style="max-width: 18rem; margin: auto;">
+                        <div class="card-body">
+                            <img src="assets/hackerrank.png" class="img-fluid">
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <a href="https://github.com" target="_blank" class="card text-dark bg-light mb-3 hover-up"
+                        style="max-width: 18rem; margin: auto;">
+                        <div class="card-body">
+                            <img src="assets/github.png" class="img-fluid">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <a href="http://www.dypatil.edu/mumbai/rait/" target="_blank"
+                        class="card text-dark bg-light mb-3 hover-up" style="max-width: 18rem; margin: auto;">
+                        <div class="card-body">
+                            <img src="assets/dypatil.png" class="img-fluid">
+                        </div>
+                    </a>
+                </div>
 
 
 
 
+            </div>
+
+            <br>
+            <br>
+            <div class="row justify-content-center">
+                <button class="btn btn-lg hover-up"
+                    style="width: auto; background-color: #E3344A; font-family: 'Questrial', sans-serif; color: white;">
+                    SPONSOR US
+                </button>
+            </div>
 
 
+        </div>
+    </div>
 
+    <br>
+
+    <div
+        style="margin: 0px; background-image: url(assets/bg3.webp); background-color: #021723; background-repeat: no-repeat;">
+
+        <div style="height: 200px;"></div>
+
+        <div class="row">
+            <h1 style="text-align: center; font-family: 'Questrial', sans-serif; color: white;">Schedule</h1>
+
+        </div>
+
+        <section class="timeline" style="margin: 0px;">
+            <ul>
+                <li class="memory">
+                    <div class="memory-container">
+                        <p class="memory-date">4th March - 5th March</p>
+                        <p class="memory-text"> <img src="assets/assignment.png" height="50" width="50"
+                                class="img-fluid" alt=""> Project Assignment to Mentors</p>
+                    </div>
+                </li>
+                <div class="memory">
+                    <div class="memory-container">
+                        <div class="memory-date">8th March</div>
+                        <div class="memory-text"><img src="assets/contribution.png" height="50" width="50"
+                                class="img-fluid" alt=""> First Phase of Contribution Starts</div>
+                    </div>
+                </div>
+                <div class="memory">
+                    <div class="memory-container">
+                        <div class="memory-date">10th March</div>
+                        <div class="memory-text"><img src="assets/leaderboard.png" height="50" width="50"
+                                class="img-fluid" alt=""> The leaderboard will be open</div>
+                    </div>
+                </div>
+                <div class="memory">
+                    <div class="memory-container">
+                        <div class="memory-date">10th March - 12th March</div>
+                        <div class="memory-text"><img src="assets/community.png" height="50" width="50"
+                                class="img-fluid" alt=""> The Community Bonding sessions</div>
+                    </div>
+                </div>
+                <div class="memory">
+                    <div class="memory-container">
+                        <div class="memory-date">1st April</div>
+                        <div class="memory-text"><img src="assets/project.png" height="50" width="50" class="img-fluid"
+                                alt=""> Personalized allotment of projects to the participants</div>
+                    </div>
+                </div>
+                <div class="memory">
+                    <div class="memory-container">
+                        <div class="memory-date">31st May</div>
+                        <div class="memory-text"><img src="assets/coding.png" height="50" width="50" class="img-fluid"
+                                alt=""> Coding period ends</div>
+                    </div>
+                </div>
+                <div class="memory">
+                    <div class="memory-container">
+                        <div class="memory-date">2nd week of June</div>
+                        <div class="memory-text"><img src="assets/results.png" height="50" width="50" class="img-fluid"
+                                alt=""> Results will be declared.</div>
+                    </div>
+                </div>
+
+            </ul>
+
+            <br>
+        </section>
+        <!-- partial -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    </div>
+
+    <div style="background-image:url(assets/bg4.png); background-color: #021723;">
+
+        <div style="height: 250px;">
+            <img src="assets/gift.png" style="margin-left: 150px; margin-top: 20px;">
+        </div>
+
+
+    </div>
+
+
+    </div>
 
     <style>
 
     </style>
+
+    <script>
+        var memories = document.querySelectorAll(".memory-container"); // All the memories that appear as we scroll down the timeline
+        var circles = document.querySelectorAll(".memory"); // The greater memory element, but visually, simply the circle attached to the timeline.
+
+        function elementInView(el) {
+            // The vertical distance between the top of the page and the top of the element.
+            var elementOffset = $(el).offset().top;
+            // The height of the element, including padding and borders.
+            var elementOuterHeight = $(el).outerHeight();
+            // Height of the window without margins, padding, borders.
+            var windowHeight = $(window).height();
+            // The vertical distance between the top of the page and the top of the viewport.
+            var scrollOffset = $(this).scrollTop();
+
+            if (elementOuterHeight < windowHeight) {
+                // Element is smaller than viewport.
+                if (scrollOffset > (elementOffset + elementOuterHeight - windowHeight)) {
+                    // Element is completely inside viewport, reveal the element!
+                    return true;
+                }
+            } else {
+                // Element is larger than the viewport, handle visibility differently.
+                // Consider it visible as soon as it's top half has filled the viewport.
+                if (scrollOffset > elementOffset) {
+                    // The top of the viewport has touched the top of the element, reveal the element!
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        function handler() {
+            for (var i = 0; i < circles.length; i++) {
+                if (elementInView(circles[i])) {
+                    memories[i].classList.add("in-view");
+                    circles[i].classList.add("in-view");
+                }
+            }
+        }
+
+        $(window).on('DOMContentLoaded load resize scroll', handler);
+    </script>
+
+
+
+
+
+
 </body>
 
 </html>
