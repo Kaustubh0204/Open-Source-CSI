@@ -278,3 +278,14 @@
 }
 
 
+/*footer*/
+
+.footlinks{
+    color: #34495e;
+}
+
+.footlinks:hover{
+    color: #E3344A;
+}
+
+
