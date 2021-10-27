@@ -289,3 +289,13 @@
 }
 
 
+/* Navbar */
+.navlinks{
+    color: white;
+}
+.navlinks:hover{
+    color: #E3344A !important;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
