@@ -299,3 +299,14 @@
     text-underline-offset: 10px;
 }
 
+/* Navbar faq*/
+.navlinksf{
+    color: black !important;
+    font-weight: 500 !important;
+}
+.navlinksf:hover{
+    color: #E3344A !important;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
