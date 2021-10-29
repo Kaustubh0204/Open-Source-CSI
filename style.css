@@ -310,3 +310,7 @@
     text-underline-offset: 10px;
 }
 
+body{
+    overflow-x: hidden !important;
+}
+
